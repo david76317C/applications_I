@@ -9,8 +9,8 @@ Ideal para facturas, carteles, recibos, libros escaneados, etc.
 
 - Procesamiento por lotes de todas las imágenes en la carpeta `inputs/`
 - Dos motores OCR disponibles:
-  - **EasyOCR** (recomendado): multilingüe, sin instalación externa
-  - **pytesseract** (Tesseract): más configurable, pero requiere instalación adicional
+  - **EasyOCR** (default)
+  - **pytesseract** (Tesseract)
 - Resultados guardados automáticamente en `outputs/` con timestamp
 - Compatible con **Windows** y **macOS** (incluyendo Apple Silicon)
 - Fácil de personalizar (idiomas, motor OCR, etc.)
@@ -20,13 +20,23 @@ Ideal para facturas, carteles, recibos, libros escaneados, etc.
 - **Python 3.12** (no compatible con versiones ≥ 3.13 por dependencias de PyTorch)
 - pip
 - Git (opcional)
-- Tesseract OCR → **solo** si planeas usar el motor `pytesseract`
 
 ## Instalación
 
 ### 1. Instalar Python 3.12
 
 **Windows**  
+1. Descarga el instalador desde python.org/downloads (selecciona la versión 3.12.x).
+2. Ejecuta el instalador y marca la opción "Add Python to PATH".
+3. Sigue las instrucciones del instalador.
+4. Verifica la instalación abriendo una terminal (cmd o PowerShell) y ejecutando:
+```bash
+python --version
+
+Deberías ver Python 3.12.x.
+
+
+
 Descarga desde: https://www.python.org/downloads/release/python-31211/  
 → Marca **"Add Python to PATH"** durante la instalación
 
