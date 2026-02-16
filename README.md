@@ -77,7 +77,7 @@ Asegúrarse de tener el archivo requirements.txt en la raíz del proyecto (Se en
 
 ```bash
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r src/requirements.txt
 ```
 
 ## Estructura del proyecto
@@ -105,9 +105,15 @@ ocr-pipeline/
 Colocar las imágenes que se desea procesar en la carpeta inputs. Formatos soportados: .png, .jpg, .jpeg.
 ### 2. Script principal:
 Ejecutar
+**Windows**
 ```bash
 python src/ocr_pipeline.py
 ```
+**macOS** 
+```bash
+python3 src/ocr_pipeline.py
+```
+
 ### 3. Resultados: 
 Los archivos de texto generados se guardarán en la carpeta outputs con el nombre nombre_imagen_YYYYMMDD_HHMMSS.txt. Cada archivo contiene la fecha de generación y el texto extraído
 
