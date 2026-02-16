@@ -32,7 +32,7 @@ Ideal para facturas, carteles, recibos, libros escaneados, etc.
 4. Verifica la instalación abriendo una terminal (cmd o PowerShell) y ejecutando:
 ```bash
 python --version
-
+```
 Deberías ver Python 3.12.x.
 
 
