@@ -54,7 +54,7 @@ python3 --version
 
 ### 2. Clonar el repositorio (Opcional)
 ```bash
-git clone https://github.com/TU_USUARIO/ocr-pipeline.git
+git clone https://github.com/david76317C/applications_I.git
 cd ocr-pipeline
 ```
 
@@ -122,7 +122,10 @@ Los archivos de texto generados se guardarán en la carpeta outputs con el nombr
 - Permitir procesamiento en paralelo para múltiples imágenes.
 - Agregar una interfaz web simple.
 
-
+## Autores
+Andrés Felipe Flórez Caro
+Sifred Humberto Mendoza Cáseres
+David Felipe Rodríguez Torres
 
 
 
