@@ -123,9 +123,9 @@ Los archivos de texto generados se guardarán en la carpeta outputs con el nombr
 - Agregar una interfaz web simple.
 
 ## Autores
-Andrés Felipe Flórez Caro
-Sifred Humberto Mendoza Cáseres
-David Felipe Rodríguez Torres
+- Andrés Felipe Flórez Caro
+- Sifred Humberto Mendoza Cáseres
+- David Felipe Rodríguez Torres
 
 
 
