@@ -55,7 +55,6 @@ python3 --version
 ### 2. Clonar el repositorio (Opcional)
 ```bash
 git clone https://github.com/david76317C/applications_I.git
-cd ocr-pipeline
 ```
 
 ### 3.Crear un entorno virtual 
