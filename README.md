@@ -105,6 +105,7 @@ ocr-pipeline/
 Colocar las imágenes que se desea procesar en la carpeta inputs. Formatos soportados: .png, .jpg, .jpeg.
 ### 2. Script principal:
 Ejecutar
+
 **Windows**
 ```bash
 python src/ocr_pipeline.py
